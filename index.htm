@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Tee</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/15fd9bfa39.js" crossorigin="anonymous"></script>
+    <script src="/scripts/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+  
+        <div class="header">
+            <div class="header__nav">
+                <div class="header__cart">
+                    <!-- <img class="header__cart icon" src="assets/images/shopping-cart-solid.svg"> -->
+                        <div class="cart-label theme--colorAlt">
+                        <span class="cart-name">My Cart</span>
+                        <i class="fas fa-shopping-cart cart-icon"></i>
+                        <span class="count">(  )</span>
+                    </div>
+                        <div class="cart">
+                        <div class="cart-label">
+                            <span class="cart-name">My Cart</span>
+                            <i class="fas fa-shopping-cart cart-icon"></i>
+                            <span class="count">(  )</span>
+                        </div>
+                        <ul class="cart__items">
+                            <li class="cart__item">
+                                <i class="fas fa-times remove"></i>
+                                <span class="item-image">
+                                    <img src="/assets/images/classic-tee.jpg" alt="Classic Tee">
+                                </span>
+                                
+                                <span class="item-details">
+                                
+                                    <p class="item-line">Classic Tee</p>
+                                    <p class="item-line">1x <span>$75.00</span></p>
+                                    <p class="item-line size">Size: S</p>
+                                
+                                </span>
+                            </li>
+                            <li class="cart__item">
+                                <i class="fas fa-times remove"></i>
+                                <span class="item-image">
+                                    <img src="/assets/images/classic-tee.jpg" alt="Classic Tee">
+                                </span>
+                                <span class="item-details">
+                                    
+                                    <p class="item-line">Classic Tee</p>
+                                    <p class="item-line">1x <span>$75.00</span></p>
+                                    <p class="item-line size">Size: L</p>
+                                    
+                                </span>
+                            
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="main">
+        <div class="product">
+           <div class="product__image">
+            <img src="/assets/images/classic-tee.jpg" alt="Classic Tee">
+           </div>
+           <div class="product__details">
+                <h1 class="product__title">Classic Tee</h1>
+                <div class="product__price">$75.00</div>
+                <div class="product__description theme--coloralt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare sem arcu, 
+                    id imperdiet lectus ultrices ultricies. Proin congue lacinia varius.
+                    Duis eget vestibulum magna. Integer blandit sed lorem porta congue. 
+                    Phasellus ullamcorper nisi suscipit tortor tincidunt, sit amet malesuada nulla tincidunt.
+                </div>
+                <form class="product__options">
+                    <h3 class="product__size"><span class="option-name">SIZE</span><span class="required">*</span></h3>
+                    <div class="product__size form-container">
+                        <div class="options">
+                            <input class="option-select" type="radio" id="small" name="size" value="S">
+                            <label class="option-label" for="small">S</label>
+                            <input class="option-select" type="radio" id="medium" name="size" value="M">
+                            <label class="option-label" for="medium">M</label>
+                            <input class="option-select" type="radio" id="large" name="size" value="L">
+                            <label class="option-label" for="large">L</label>
+                        </div>
+                    </div>
+                    <input class="change" type="checkbox">  
+                    <input class="product__options submit-button" type="submit" value="ADD TO CART">
+                </form>
+           </div>
+
+        </div>
+    </div>
+    
+</body>
+    <script src="scripts/script.js"></script>
+</html>
