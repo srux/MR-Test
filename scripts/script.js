@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
    $(".submit-button").on("click",function(e){ 
        // add to cart
         let optionSize = $("input[name='size']:checked").val();
-        $(".cart__items").append('<li class="cart__item"><i class="fas fa-times remove"></i><span class="item-image"><img src="/assets/images/classic-tee.jpg" alt="Classic Tee"></span><span class="item-details"><p class="item-line">Classic Tee</p><p class="item-line">1x $75.00</p><p class="item-line size">Size: '+optionSize+' </p></span></li>');
+        $(".cart__items").append('<li class="cart__item"><i class="fas fa-times remove"></i><span class="item-image"><img src="assets/images/classic-tee.jpg" alt="Classic Tee"></span><span class="item-details"><p class="item-line">Classic Tee</p><p class="item-line">1x $75.00</p><p class="item-line size">Size: '+optionSize+' </p></span></li>');
 
         // remove from cart
         $(".remove").on("click",function(){
